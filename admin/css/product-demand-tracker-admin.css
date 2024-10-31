@@ -1,0 +1,72 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#product_demand_tracker_table_wrapper {
+	background: #fff;
+	padding: 15px;
+	margin-top: 20px;
+}
+
+#product_demand_tracker_table_wrapper td,
+#product_demand_tracker_table_wrapper th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+#product_demand_tracker_table_wrapper tr:nth-child(even) {
+	background-color: #f8f8f8;
+}
+
+.variation-items {
+	max-height: 150px;
+	overflow-y: scroll;
+}
+
+.variation-items .variation-item {
+	border-bottom: 1px solid #ddd;
+	padding: 5px 0;
+}
+
+.variation-items .variation-item:last-child {
+	border-bottom: 0
+}
+
+#product_demand_tracker_table_wrapper .dataTables_length select {
+	padding: 0 24px 0 8px
+}
+
+#product_demand_tracker_table_wrapper .dataTables_filter input {
+	padding: 0 7px;
+	margin-left: 3px;
+	margin-bottom: 6px;
+}
+
+.product-name ul {
+	margin: 0;
+	list-style: none;
+}
+
+.product-name ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.product-name ul li a {
+	text-decoration: none
+}
+
+.product-name p {
+	margin: 5px 0
+}
+
+td.product-quantity strong {
+	text-align: center;
+	display: block;
+}
+
+td.product-user span {
+	display: block;
+	margin-bottom: 5px
+}
